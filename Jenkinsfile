@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage ('Git Clone') {
        steps {
-          giturl:'https://github.com/Vimal9059/war-web-project.git',branch:'master'
+          git url:'https://github.com/Vimal9059/war-web-project.git',branch:'master'
        }
      }
     stage ('Build') {
